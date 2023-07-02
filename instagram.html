@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="instagram.css">
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c803804b72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-Container" id="main">
+    <div class="first-Container">
+
+           <div class="insta-image">
+            <img src="insta.png" alt="">
+           </div>
+
+            <div class="form-div">
+               <form >
+                <input type="text" class="Username" placeholder="Phone number, username, or email"   id="user" required >
+                <input type="Password" class="Password" placeholder="Password" onkeyup="ValidPassword()" onfocus="show()" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}" onblur="hide()" id="pass" required>
+                <p><input type="checkbox"  onclick="passww()">Show Password </p> 
+               
+               </form>
+               <div class="Login-button">
+                <button class="button" type="submit" onclick="Submitform()">Sign up</button>
+                </div>
+               
+
+          
+       
+            <div class="inValidpassword" id="passwordvalidator"> 
+            <h3>Valid Password Format Should Contain</h3>
+            <p id="lowercase" class="inValid"> <i class="fa-solid fa-circle-xmark" style="color: #f31212;" id="mark1"></i>A lowercase letter</p>
+            <p id="uppercase" class="inValid" ><i class="fa-solid fa-circle-xmark" style="color: #f31212;" id="mark2"></i>A Capital Letter</p>
+            <p id ="number"   class="inValid"><i class="fa-solid fa-circle-xmark" style="color: #f31212;" id="mark3"></i>A number</p>
+            <p id ="charaters" class="inValid"><i class="fa-solid fa-circle-xmark" style="color: #f31212;" id="mark4"></i>Minimum 8 Characters</p>
+           </div>
+
+
+           </div> 
+          
+        </div>
+
+        <div    class="pos" id="pos">
+        <div class="div2" id="Div2">
+        <div class="Signup">Already have an account?<a href="">Log in</a></div>
+        </div>
+
+        <div class="aftersubmit hide" id="after">
+            Account Created 
+        </div>
+        <div class="aftersubmit2 hide" id="after2">
+          Username or Password invalid
+        </div>
+
+
+         <div class="textparent "><div class="text"><b>Get the app.</b></div></div>
+   
+        <div class="parent ">
+        <div class="linkimages">
+        <img src="apple.png" alt="">
+        <img src="playstore.png" alt="">
+        </div>
+        </div>
+
+        <div class="links">
+        <div class="list1">
+            <ul>
+            <li>ABOUT US</li>
+            <li>SUPPORT</li>
+            <li>BLOG</li>
+            <li>PRESS</li>
+            <li>API</li>
+            <li>JOBS</li>
+            </ul>
+            </div>
+
+            <div class="list2">
+            <ul>
+            <li>PRIVACY </li>
+            <li>TERMS</li>
+            <li>DIRECTORY</li>
+            <li>LANGUAGE</li>
+            </ul>
+           </div>
+           </div>
+        </div>  
+    </div>
+
+    <script src="instagram.js"></script>
+
+</body>
+</html>

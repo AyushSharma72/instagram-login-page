@@ -1,0 +1,237 @@
+
+html{
+    height:100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.first-Container{
+    border: 1px solid #e6e6e6;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 400px; 
+   border-bottom: 0px ;
+}
+
+.insta-image img{
+  height:60px;
+}
+.insta-image{
+    display:flex;
+    align-items: center;
+    margin:20px 0px;
+}
+.form-div{
+   text-align: center;
+    width:100%;
+   }
+
+   form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+.Username{
+    width: 70%;
+    height: 45px;
+    background-color: hsl(0, 47%, 97%);
+    border: none;
+    border: 1px solid #e6e6e6;
+    
+}
+.Password{
+    width: 70%;
+    height: 45px;
+    margin-top:10px;
+    background-color: hsl(0, 47%, 97%);
+    border: none;
+    border: 1px solid #e6e6e6;
+    
+   
+}
+.Login-button{
+    width:100%;
+    height: 30px;
+    text-align: center;
+    margin: 20px 0px;
+  
+}
+.button{
+    background-color:dodgerblue;
+    color: #fff;
+    width: 70%;
+    height:30px;
+    font-weight:600;
+    border: none;
+    cursor: pointer;
+    transition: background-color  0.3s;
+
+}
+.button:active{
+    transform: translateY(-2px);
+}
+.button:hover{
+    background-color: rgb(15, 69, 194);
+   
+}
+.pos{
+    position: relative;
+    top:-190px;
+
+}
+
+.inValidpassword{
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
+    opacity:0;
+    transition: opacity 1.2s;
+    
+}
+.inValidpassword h3{
+    width:100%;
+    text-align: center;
+}
+
+.inValid{
+    width: 400px; 
+    display: flex;
+    position: relative;
+    right:-100px;
+    color:red;
+   margin-top: 0px;
+   
+}
+.fa-solid{
+    position: relative;
+    left:-35px;
+}
+.Valid{
+    width: 400px; 
+    display: flex;
+    position: relative;
+    right:-100px;
+    color:#0ad60a;
+   margin-top: 0px;
+}
+.div2{
+    width:400px; 
+    background-color: white;
+    margin-top:0px;
+    text-align: center;
+  
+}
+
+ 
+.Signup{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 25px 0px;
+}
+.textparent{
+    width: 400px;
+    
+}
+.text{
+   
+    text-align: center;
+    background-color: white;
+}
+.parent{
+    
+    display: flex;
+   justify-content: center;
+   width: 400px; 
+   height:80px;
+   background-color: white;
+}
+.linkimages{
+    width: 350px; 
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    background-color: white;
+    margin-top:15px;
+    
+}
+.linkimages img{
+    height: 45px; 
+    cursor: pointer;
+   
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+   
+    }
+
+.links {   
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 400px; 
+font-size: 13px;
+font-weight: 600;
+color:dimgray;
+background-color: white;
+margin-bottom: 40px;
+
+
+}
+.list1 ul{
+    
+    display: flex;
+    gap:15px;
+    font-size: 13px;
+    font-weight: 600;
+    color:dimgray;
+   
+      }
+    
+
+.list2 ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap:12px;
+font-size: 13px;
+font-weight: 600;
+color:dimgray;
+margin-top: 0px;
+width: 80%;
+
+    
+}
+.hide{
+    display:none;
+}
+
+.aftersubmit{
+    height:100px;
+    width: 400px;
+    background-color: rgb(89, 235, 94);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    height: 100%;
+}
+.aftersubmit2{
+    height:100px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    height: 100%;
+    background-color: hwb(0 16% 2%);
+    
+}
